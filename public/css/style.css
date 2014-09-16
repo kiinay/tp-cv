@@ -1,0 +1,51 @@
+body{
+  font-family: arial;
+}
+
+#wrapper{
+
+}
+
+h1{
+  color: black;
+}
+
+.infos, p, small, h3{
+  color: #9DA3FF;
+}
+
+a{
+  text-decoration: none;
+  color: #9DA3FF;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #7075c8;
+}
+
+p small{
+  margin: 5px 0px 5px 0px;
+}
+
+#wrap-infos div{
+  display: inline-block;
+}
+
+.pic-me{
+  padding-left: 80px;
+}
+
+#skills ul, #perso ul{
+  color: #999999;
+}
+
+#container section{
+  position: absolute;
+}
+
+#perso{
+  right: 356px;
+  border-left: solid 1px;
+  padding-left: 100px;
+}
