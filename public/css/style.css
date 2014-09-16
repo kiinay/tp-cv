@@ -2,15 +2,11 @@ body{
   font-family: arial;
 }
 
-#wrapper{
-
-}
-
 h1{
   color: black;
 }
 
-.infos, p, small, h3{
+.infos, p, small, adress, h3{
   color: #9DA3FF;
 }
 
@@ -36,7 +32,7 @@ p small{
   padding-left: 80px;
 }
 
-#skills ul, #perso ul{
+#skills ul, #perso ul, .list{
   color: #999999;
 }
 
@@ -46,6 +42,11 @@ p small{
 
 #perso{
   right: 356px;
-  border-left: solid 1px;
+  border-left: solid 2px;
   padding-left: 100px;
+}
+
+.list{
+  display: list-item;
+  margin-left: 40px;
 }
