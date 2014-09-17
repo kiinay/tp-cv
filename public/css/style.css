@@ -1,13 +1,10 @@
 body{
+  margin: 0px;
   font-family: arial;
 }
 
 h1{
   color: black;
-}
-
-.infos, p, small, adress, h3{
-  color: #9DA3FF;
 }
 
 a{
@@ -24,6 +21,29 @@ p small{
   margin: 5px 0px 5px 0px;
 }
 
+.infos, p, small, adress, h3{
+  color: #9DA3FF;
+}
+
+.list{
+  display: list-item;
+  margin-left: 40px;
+}
+
+.name{
+  margin-top: 0px;
+}
+
+.title{
+  text-align: center;
+}
+
+#wrapper{
+  width: 980px;
+  margin: auto;
+  padding: 20px 0px 20px 0px;
+}
+
 #wrap-infos div{
   display: inline-block;
 }
@@ -32,21 +52,21 @@ p small{
   padding-left: 80px;
 }
 
-#skills ul, #perso ul, .list{
-  color: #999999;
+#container section{
+  display: inline-block;
+  vertical-align: top;
 }
 
-#container section{
-  position: absolute;
+#skills ul, #perso ul, .list{
+color: #999999;
+}
+
+#skills{
+  margin-right: 50px;
 }
 
 #perso{
   right: 356px;
   border-left: solid 2px;
-  padding-left: 100px;
-}
-
-.list{
-  display: list-item;
-  margin-left: 40px;
+  padding-left: 50px;
 }
